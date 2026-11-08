@@ -1,0 +1,121 @@
+/* challenge tab — Books to read challenge. Gallery language: serif italic, mono labels, covers, whitespace. */
+[data-mood="challenge"] { --accent: #f3dcae; --accent-ink: #1c1406; }
+[data-mood="challenge"] .page-h::before { content: "a reading challenge"; }
+[data-mood="challenge"] .page-h.ch-foryou::before { content: "chosen for you"; }
+[data-mood="challenge"] .page-h h1 { font: italic 400 46px/1 var(--serif); letter-spacing: 0; }
+
+.ch-lede { margin: 6px 0 34px; }
+.ch-figs { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 0; border-top: 1px solid var(--line-2); border-bottom: 1px solid var(--line); }
+.ch-figs > div { padding: 16px 18px 14px 0; display: flex; flex-direction: column; gap: 4px; }
+.ch-figs > div + div { padding-left: 18px; border-left: 1px solid var(--line); }
+.ch-figs b { font: italic 400 40px/1 var(--serif); color: var(--text); }
+.ch-figs b em { font-style: italic; font-size: 22px; color: var(--faint); }
+.ch-figs span { font: 500 10px var(--mono); letter-spacing: .18em; text-transform: uppercase; color: var(--faint); }
+
+.ch-track { display: grid; grid-template-columns: repeat(31, minmax(0, 1fr)); gap: 3px; margin-top: 14px; }
+.ch-track i { position: relative; height: 26px; border-radius: 3px; background: rgba(255, 255, 255, .035); display: flex; flex-direction: column-reverse; align-items: center; gap: 2px; padding: 3px 0; }
+.ch-track i.past { background: rgba(243, 220, 174, .1); }
+.ch-track i.now { background: rgba(243, 220, 174, .1); box-shadow: inset 0 0 0 1px var(--accent); }
+.ch-track b, .ch-key b { width: 6px; height: 6px; border-radius: 50%; display: block; }
+.ch-track b.book, .ch-key b.book { background: var(--accent); }
+.ch-track b.story, .ch-key b.story { background: transparent; box-shadow: inset 0 0 0 1.5px var(--accent); }
+.ch-key { display: flex; gap: 18px; margin-top: 8px; font: 400 10.5px var(--mono); color: var(--faint); }
+.ch-key span { display: inline-flex; align-items: center; gap: 6px; }
+.ch-key i.now { width: 10px; height: 10px; border-radius: 2px; box-shadow: inset 0 0 0 1px var(--accent); }
+
+.ch-h { display: flex; align-items: baseline; flex-wrap: wrap; gap: 6px 14px; margin: 40px 0 18px; font: italic 400 30px/1.1 var(--serif); color: var(--text); }
+.ch-h i { color: var(--accent); }
+.ch-h > span { font: 400 11px var(--mono); letter-spacing: .08em; color: var(--faint); }
+.ch-filter { margin-left: auto; display: inline-flex; gap: 2px; }
+.ch-filter button { border: 0; background: none; padding: 4px 10px; border-radius: 999px; font: 500 11px var(--mono); letter-spacing: .08em; color: var(--faint); cursor: pointer; }
+.ch-filter button:hover { color: var(--text); }
+.ch-filter button.on { color: var(--accent-ink); background: var(--accent); }
+
+/* books: cover, then a museum label */
+.ch-five { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 26px; }
+.ch-more { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 30px 22px; }
+.ch-book figure { position: relative; margin: 0; aspect-ratio: 2 / 3; border-radius: 3px; overflow: hidden; background: rgba(255, 255, 255, .04);
+  box-shadow: 0 22px 44px -18px rgba(0, 0, 0, .8), 0 0 0 1px rgba(255, 255, 255, .06); transition: transform .35s cubic-bezier(.2, .9, .3, 1.2), box-shadow .35s; }
+.ch-book:hover figure { transform: translateY(-4px); box-shadow: 0 30px 50px -18px rgba(0, 0, 0, .85), 0 0 0 1px rgba(243, 220, 174, .25); }
+.ch-book figure img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.ch-blank { position: absolute; inset: 0; display: grid; place-items: center; padding: 16px; text-align: center; font: italic 400 20px/1.15 var(--serif); color: var(--muted); }
+.ch-num { position: absolute; left: 10px; top: 8px; font: italic 400 26px/1 var(--serif); color: #fff; text-shadow: 0 2px 14px rgba(0, 0, 0, .9); }
+.ch-stamp { position: absolute; left: 0; right: 0; bottom: 0; padding: 18px 10px 8px; font: 500 9.5px var(--mono); letter-spacing: .18em; text-transform: uppercase; color: var(--accent);
+  background: linear-gradient(transparent, rgba(8, 7, 12, .9)); }
+.ch-bar { position: absolute; left: 0; right: 0; bottom: 0; height: 3px; background: rgba(0, 0, 0, .55); }
+.ch-bar span { display: block; height: 100%; background: var(--accent); }
+.ch-book.done figure img { filter: saturate(.55) brightness(.75); }
+
+.ch-label { padding-top: 14px; }
+.ch-label h3 { margin: 0; font: italic 400 21px/1.15 var(--serif); color: var(--text); }
+.ch-book.small .ch-label h3 { font-size: 18px; }
+.ch-meta { margin: 5px 0 0; font: 400 10.5px/1.5 var(--mono); letter-spacing: .03em; color: var(--faint); }
+.ch-link { border: 0; padding: 0; background: none; font: inherit; color: var(--accent); cursor: pointer; text-decoration: underline; text-underline-offset: 2px; text-decoration-color: rgba(243, 220, 174, .35); }
+.ch-premise { margin: 9px 0 0; font-size: 13px; line-height: 1.55; color: var(--muted); }
+.ch-book.small .ch-premise { font-size: 12.5px; display: -webkit-box; -webkit-line-clamp: 4; -webkit-box-orient: vertical; overflow: hidden; }
+.ch-why { margin: 8px 0 0; font: italic 400 14.5px/1.4 var(--serif); color: var(--accent); }
+
+.ch-status { display: flex; flex-wrap: wrap; gap: 2px; margin-top: 12px; }
+.ch-status button { border: 0; background: none; padding: 4px 8px; border-radius: 999px; font: 500 10px var(--mono); letter-spacing: .1em; text-transform: uppercase; color: var(--faint); cursor: pointer; }
+.ch-status button:first-child { padding-left: 0; }
+.ch-book.small .ch-status button { padding: 4px 6px; letter-spacing: .05em; font-size: 9.5px; }
+.ch-book.small .ch-status button:first-child { padding-left: 0; }
+.ch-status button:hover { color: var(--text); }
+.ch-status button.on { color: var(--accent-ink); background: var(--accent); padding-left: 8px; }
+.ch-page { display: flex; align-items: center; gap: 6px; margin-top: 8px; font: 400 11px var(--mono); color: var(--faint); }
+.ch-page .in { width: 74px; padding: 4px 8px; }
+
+/* stories: a numbered list, two columns, like a catalogue */
+.ch-stories { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 40px; border-top: 1px solid var(--line-2); }
+.ch-story { display: grid; grid-template-columns: 34px minmax(0, 1fr) auto; gap: 14px; align-items: start; padding: 18px 2px 16px; border-bottom: 1px solid var(--line); }
+.ch-n { font: italic 400 22px/1 var(--serif); color: var(--faint); padding-top: 2px; }
+.ch-story h3 { margin: 0; font: italic 400 21px/1.15 var(--serif); color: var(--text); }
+.ch-story .ch-premise { margin-top: 6px; }
+.ch-acts { display: flex; flex-direction: column; align-items: flex-end; gap: 10px; padding-top: 2px; }
+.ch-acts a { font: 500 10px var(--mono); letter-spacing: .12em; text-transform: uppercase; color: var(--accent); text-decoration: none; white-space: nowrap; }
+.ch-acts a:hover { text-decoration: underline; text-underline-offset: 3px; }
+.ch-check { width: 26px; height: 26px; border-radius: 50%; border: 1px solid var(--line-2); background: none; color: var(--accent-ink); font-size: 13px; cursor: pointer; transition: background .2s, border-color .2s, transform .2s cubic-bezier(.2, .9, .3, 1.6); }
+.ch-check:hover { border-color: var(--accent); }
+.ch-check.on { background: var(--accent); border-color: var(--accent); transform: scale(1.05); }
+.ch-story.done h3 { color: var(--muted); }
+.ch-story.done .ch-premise { opacity: .6; }
+.ch-none { padding: 22px 2px; color: var(--faint); font: italic 400 18px var(--serif); }
+
+/* ten for you: a ranked catalogue, one book a row */
+.ch-views { display: flex; width: fit-content; }
+.ch-intro { max-width: 74ch; margin: 2px 0 22px; font-size: 14.5px; line-height: 1.6; color: var(--muted); }
+.ch-finds { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 0; margin-bottom: 18px; border-top: 1px solid var(--line-2); border-bottom: 1px solid var(--line); }
+.ch-finds > div { padding: 16px 20px 16px 0; }
+.ch-finds > div + div { padding-left: 20px; border-left: 1px solid var(--line); }
+.ch-finds h3 { margin: 0 0 6px; font: italic 400 20px/1.2 var(--serif); color: var(--accent); }
+.ch-finds p { margin: 0; font-size: 13px; line-height: 1.55; color: var(--muted); }
+.ch-picks { list-style: none; margin: 0; padding: 0; }
+.ch-pick { display: grid; grid-template-columns: 62px 150px minmax(0, 1fr); gap: 22px; align-items: start; padding: 30px 0; border-bottom: 1px solid var(--line); }
+.ch-rank { font: italic 400 50px/1 var(--serif); color: var(--accent); }
+.ch-pick .ch-label { padding-top: 0; }
+.ch-pick .ch-label h3 { margin-top: 6px; font-size: 30px; }
+.ch-sure { font: 500 10px var(--mono); letter-spacing: .16em; text-transform: uppercase; color: var(--faint); }
+.ch-cols { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr); gap: 26px; margin-top: 16px; }
+.ch-cols h4 { margin: 0 0 6px; font: 500 10px var(--mono); letter-spacing: .16em; text-transform: uppercase; color: var(--accent); }
+.ch-cols > div + div h4 { color: var(--faint); }
+.ch-cols p { margin: 0; font-size: 13.5px; line-height: 1.6; color: var(--text); }
+.ch-cols > div + div p { color: var(--muted); }
+.ch-where { margin: 12px 0 0; font: 400 11px/1.55 var(--mono); color: var(--faint); }
+.ch-where a { color: var(--accent); }
+.ch-near { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); column-gap: 32px; border-top: 1px solid var(--line-2); }
+.ch-near li { padding: 16px 0; border-bottom: 1px solid var(--line); }
+.ch-near h3 { margin: 0; font: italic 400 20px/1.15 var(--serif); color: var(--text); }
+
+@media (max-width: 1180px) { .ch-five, .ch-more { grid-template-columns: repeat(3, minmax(0, 1fr)); } .ch-near { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 900px) {
+  .ch-figs { grid-template-columns: repeat(2, minmax(0, 1fr)); } .ch-figs > div:nth-child(3) { border-left: 0; padding-left: 0; }
+  .ch-stories { grid-template-columns: 1fr; }
+  .ch-five, .ch-more { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .ch-track { gap: 2px; }
+  .ch-finds, .ch-cols, .ch-near { grid-template-columns: 1fr; }
+  .ch-finds > div + div { padding-left: 0; border-left: 0; border-top: 1px solid var(--line); }
+  .ch-pick { grid-template-columns: 44px minmax(0, 1fr); gap: 14px; }
+  .ch-pick figure { width: 130px; }
+  .ch-pick .ch-label { grid-column: 1 / -1; }
+  .ch-rank { font-size: 38px; }
+}

@@ -1,0 +1,7 @@
+* text=auto eol=lf
+# Windows launchers need CRLF to run reliably in cmd.exe / wscript
+*.cmd text eol=crlf
+*.vbs text eol=crlf
+*.ogg binary
+*.png binary
+*.webp binary

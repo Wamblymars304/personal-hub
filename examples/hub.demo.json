@@ -1,0 +1,2206 @@
+{
+ "version": "2.0",
+ "media": [
+  {
+   "id": "m0001demo",
+   "title": "Pride and Prejudice",
+   "category": "Book",
+   "added_date": "2025-10-17",
+   "done": true,
+   "completedAt": "2025-12-06",
+   "timeEstimate": 0,
+   "author": "Jane Austen",
+   "year": 1813,
+   "status": "read",
+   "rating": 4
+  },
+  {
+   "id": "m0002demo",
+   "title": "Jane Eyre",
+   "category": "Book",
+   "added_date": "2025-10-20",
+   "done": true,
+   "completedAt": "2026-01-03",
+   "timeEstimate": 0,
+   "author": "Charlotte Brontë",
+   "year": 1847,
+   "status": "read",
+   "rating": 4.5
+  },
+  {
+   "id": "m0003demo",
+   "title": "Moby-Dick",
+   "category": "Book",
+   "added_date": "2025-10-23",
+   "done": false,
+   "completedAt": "",
+   "timeEstimate": 0,
+   "author": "Herman Melville",
+   "year": 1851,
+   "status": "currently-reading"
+  },
+  {
+   "id": "m0004demo",
+   "title": "Robinson Crusoe",
+   "category": "Book",
+   "added_date": "2025-10-26",
+   "done": false,
+   "completedAt": "",
+   "timeEstimate": 0,
+   "author": "Daniel Defoe",
+   "year": 1719,
+   "status": "to-read"
+  },
+  {
+   "id": "m0005demo",
+   "title": "Middlemarch",
+   "category": "Book",
+   "added_date": "2025-10-29",
+   "done": false,
+   "completedAt": "",
+   "timeEstimate": 0,
+   "author": "George Eliot",
+   "year": 1871,
+   "status": "to-read"
+  },
+  {
+   "id": "m0006demo",
+   "title": "Walden",
+   "category": "Book",
+   "added_date": "2025-11-01",
+   "done": false,
+   "completedAt": "",
+   "timeEstimate": 0,
+   "author": "Henry David Thoreau",
+   "year": 1854,
+   "status": "to-read"
+  },
+  {
+   "id": "m0007demo",
+   "title": "The Count of Monte Cristo",
+   "category": "Book",
+   "added_date": "2025-11-04",
+   "done": false,
+   "completedAt": "",
+   "timeEstimate": 0,
+   "author": "Alexandre Dumas",
+   "year": 1844,
+   "status": "to-read"
+  },
+  {
+   "id": "m0008demo",
+   "title": "Dracula",
+   "category": "Book",
+   "added_date": "2025-11-07",
+   "done": false,
+   "completedAt": "",
+   "timeEstimate": 0,
+   "author": "Bram Stoker",
+   "year": 1897,
+   "status": "to-read"
+  },
+  {
+   "id": "m0009demo",
+   "title": "The Third Man",
+   "category": "Movie",
+   "added_date": "2025-11-10",
+   "done": true,
+   "completedAt": "2025-12-26",
+   "timeEstimate": 104,
+   "author": "Carol Reed",
+   "year": 1949
+  },
+  {
+   "id": "m0010demo",
+   "title": "Rear Window",
+   "category": "Movie",
+   "added_date": "2025-11-13",
+   "done": false,
+   "completedAt": "",
+   "timeEstimate": 112,
+   "author": "Alfred Hitchcock",
+   "year": 1954
+  },
+  {
+   "id": "m0011demo",
+   "title": "Singin' in the Rain",
+   "category": "Movie",
+   "added_date": "2025-11-16",
+   "done": false,
+   "completedAt": "",
+   "timeEstimate": 103,
+   "author": "Stanley Donen, Gene Kelly",
+   "year": 1952
+  },
+  {
+   "id": "m0012demo",
+   "title": "Sherlock Jr.",
+   "category": "Movie",
+   "added_date": "2025-11-19",
+   "done": false,
+   "completedAt": "",
+   "timeEstimate": 45,
+   "author": "Buster Keaton",
+   "year": 1924
+  },
+  {
+   "id": "m0013demo",
+   "title": "Planet Earth II",
+   "category": "TV Show",
+   "added_date": "2025-11-22",
+   "done": false,
+   "completedAt": "",
+   "timeEstimate": 300,
+   "author": "BBC",
+   "year": 2016
+  },
+  {
+   "id": "m0014demo",
+   "title": "Columbo",
+   "category": "TV Show",
+   "added_date": "2025-11-25",
+   "done": true,
+   "completedAt": "2025-11-16",
+   "timeEstimate": 600,
+   "author": "Richard Levinson, William Link",
+   "year": 1971
+  },
+  {
+   "id": "m0015demo",
+   "title": "Nanook of the North",
+   "category": "Documentary",
+   "added_date": "2025-11-28",
+   "done": false,
+   "completedAt": "",
+   "timeEstimate": 78,
+   "author": "Robert J. Flaherty",
+   "year": 1922
+  },
+  {
+   "id": "m0016demo",
+   "title": "Man with a Movie Camera",
+   "category": "Documentary",
+   "added_date": "2025-12-01",
+   "done": true,
+   "completedAt": "2026-01-10",
+   "timeEstimate": 68,
+   "author": "Dziga Vertov",
+   "year": 1929
+  },
+  {
+   "id": "m0017demo",
+   "title": "Yotsuba&!",
+   "category": "Manga",
+   "added_date": "2025-12-04",
+   "done": false,
+   "completedAt": "",
+   "timeEstimate": 0,
+   "author": "Kiyohiko Azuma",
+   "year": 2003
+  },
+  {
+   "id": "m0018demo",
+   "title": "Radiolab",
+   "category": "Podcast",
+   "added_date": "2025-12-07",
+   "done": false,
+   "completedAt": "",
+   "timeEstimate": 60,
+   "author": "WNYC Studios",
+   "year": 2002
+  },
+  {
+   "id": "m0019demo",
+   "title": "As We May Think",
+   "category": "Article",
+   "added_date": "2025-12-10",
+   "done": true,
+   "completedAt": "2026-01-12",
+   "timeEstimate": 25,
+   "author": "Vannevar Bush",
+   "year": 1945
+  },
+  {
+   "id": "m0020demo",
+   "title": "Mini Metro",
+   "category": "Videogame",
+   "added_date": "2025-12-13",
+   "done": false,
+   "completedAt": "",
+   "timeEstimate": 120,
+   "author": "Dinosaur Polo Club",
+   "year": 2015
+  },
+  {
+   "id": "m0021demo",
+   "title": "Celeste",
+   "category": "Videogame",
+   "added_date": "2025-12-16",
+   "done": false,
+   "completedAt": "",
+   "timeEstimate": 600,
+   "author": "Maddy Thorson, Noel Berry",
+   "year": 2018
+  }
+ ],
+ "mediaQueue": [
+  "m0003demo",
+  "m0010demo",
+  "m0013demo",
+  "m0021demo"
+ ],
+ "mediaConsumed": [
+  {
+   "id": "m0001demo",
+   "title": "Pride and Prejudice",
+   "category": "Book",
+   "consumedAt": "2025-12-06"
+  },
+  {
+   "id": "m0002demo",
+   "title": "Jane Eyre",
+   "category": "Book",
+   "consumedAt": "2026-01-03"
+  },
+  {
+   "id": "m0009demo",
+   "title": "The Third Man",
+   "category": "Movie",
+   "consumedAt": "2025-12-26"
+  },
+  {
+   "id": "m0014demo",
+   "title": "Columbo",
+   "category": "TV Show",
+   "consumedAt": "2025-11-16"
+  },
+  {
+   "id": "m0016demo",
+   "title": "Man with a Movie Camera",
+   "category": "Documentary",
+   "consumedAt": "2026-01-10"
+  },
+  {
+   "id": "m0019demo",
+   "title": "As We May Think",
+   "category": "Article",
+   "consumedAt": "2026-01-12"
+  }
+ ],
+ "schedule": [
+  {
+   "id": "t0022demo",
+   "date": "2026-01-15",
+   "title": "Draft the newsletter",
+   "timeEstimate": 60,
+   "startTime": "10:00",
+   "done": false
+  },
+  {
+   "id": "t0023demo",
+   "date": "2026-01-15",
+   "title": "Groceries",
+   "timeEstimate": 45,
+   "startTime": "17:30",
+   "done": true
+  },
+  {
+   "id": "t0024demo",
+   "date": "2026-01-15",
+   "title": "Watch Rear Window",
+   "timeEstimate": 112,
+   "startTime": "20:30",
+   "done": false,
+   "mediaId": "m0010demo"
+  },
+  {
+   "id": "t0025demo",
+   "date": "2026-01-16",
+   "title": "Dentist",
+   "timeEstimate": 60,
+   "startTime": "09:00",
+   "done": false
+  },
+  {
+   "id": "t0026demo",
+   "date": "2026-01-17",
+   "title": "Sketch at the park",
+   "timeEstimate": 90,
+   "startTime": "14:00",
+   "done": false
+  },
+  {
+   "id": "t0027demo",
+   "date": "2026-01-19",
+   "title": "Call grandma",
+   "timeEstimate": 30,
+   "startTime": "18:00",
+   "done": false
+  },
+  {
+   "id": "t0028demo",
+   "date": "2026-01-13",
+   "title": "Fix the bike tyre",
+   "timeEstimate": 40,
+   "startTime": "",
+   "done": false
+  },
+  {
+   "id": "t0029demo",
+   "date": "2026-01-14",
+   "title": "Write 500 words",
+   "timeEstimate": 50,
+   "startTime": "08:00",
+   "done": true
+  }
+ ],
+ "reminders": [
+  {
+   "id": "r0030demo",
+   "title": "Renew library card",
+   "description": "Expires end of the month.",
+   "priority": "High",
+   "completed": false,
+   "createdDate": "2026-01-11"
+  },
+  {
+   "id": "r0031demo",
+   "title": "Back up the photos",
+   "description": "",
+   "priority": "Medium",
+   "completed": false,
+   "createdDate": "2026-01-06"
+  },
+  {
+   "id": "r0032demo",
+   "title": "Fix the wobbly shelf",
+   "description": "Needs wall plugs.",
+   "priority": "Low",
+   "completed": false,
+   "createdDate": "2025-12-16"
+  },
+  {
+   "id": "r0033demo",
+   "title": "Return the drill to Sam",
+   "description": "",
+   "priority": "Medium",
+   "completed": true,
+   "createdDate": "2025-12-31"
+  }
+ ],
+ "projects": [
+  {
+   "id": "p0034demo",
+   "name": "Zine: Night Walks",
+   "description": "A 24-page photocopied zine of night photos and short texts.",
+   "status": "In Progress",
+   "category": "Creative",
+   "priority": "High",
+   "targetDate": "2026-02-14",
+   "createdDate": "2025-12-01",
+   "progressPct": 55,
+   "milestones": [
+    {
+     "id": "ms0035demo",
+     "title": "Shoot 40 photos",
+     "targetDate": "2026-01-05",
+     "completed": true
+    },
+    {
+     "id": "ms0036demo",
+     "title": "Write the texts",
+     "targetDate": "2026-01-25",
+     "completed": false
+    },
+    {
+     "id": "ms0037demo",
+     "title": "Print 50 copies",
+     "targetDate": "2026-02-12",
+     "completed": false
+    }
+   ],
+   "assetLinks": [],
+   "iterationNotes": [],
+   "versionHistory": [],
+   "collaborators": []
+  },
+  {
+   "id": "p0038demo",
+   "name": "Recipe site",
+   "description": "A tiny static site for family recipes.",
+   "status": "Planning",
+   "category": "Technical",
+   "priority": "Medium",
+   "targetDate": "2026-03-31",
+   "createdDate": "2026-01-07",
+   "progressPct": 10,
+   "milestones": [],
+   "assetLinks": [],
+   "iterationNotes": [],
+   "versionHistory": [],
+   "collaborators": []
+  },
+  {
+   "id": "p0039demo",
+   "name": "Run a 10K",
+   "description": "Couch to 10K, three runs a week.",
+   "status": "Completed",
+   "category": "Personal",
+   "priority": "Low",
+   "targetDate": "2025-12-26",
+   "createdDate": "2025-09-17",
+   "progressPct": 100,
+   "milestones": [],
+   "assetLinks": [],
+   "iterationNotes": [],
+   "versionHistory": [],
+   "collaborators": []
+  }
+ ],
+ "hobbies": [
+  {
+   "id": "h0040demo",
+   "name": "Film photography",
+   "desc": "A cheap 35 mm camera and night walks.",
+   "tags": [
+    "photo"
+   ],
+   "added": "2025-06-29"
+  },
+  {
+   "id": "h0041demo",
+   "name": "Pottery",
+   "desc": "An evening class; wobbly bowls so far.",
+   "tags": [
+    "hands"
+   ],
+   "added": "2025-10-17"
+  },
+  {
+   "id": "h0042demo",
+   "name": "Juggling",
+   "desc": "Three balls, working on four.",
+   "tags": [
+    "hands"
+   ],
+   "added": "2025-12-06"
+  }
+ ],
+ "habits": [
+  {
+   "id": "hb0043demo",
+   "name": "Read 20 pages",
+   "desc": "",
+   "dopamineLevel": "Low",
+   "activeDates": [
+    "2025-10-27",
+    "2025-10-28",
+    "2025-10-29",
+    "2025-10-30",
+    "2025-10-31",
+    "2025-11-01",
+    "2025-11-02",
+    "2025-11-03",
+    "2025-11-04",
+    "2025-11-05",
+    "2025-11-06",
+    "2025-11-07",
+    "2025-11-08",
+    "2025-11-10",
+    "2025-11-11",
+    "2025-11-12",
+    "2025-11-14",
+    "2025-11-15",
+    "2025-11-17",
+    "2025-11-19",
+    "2025-11-20",
+    "2025-11-21",
+    "2025-11-22",
+    "2025-11-24",
+    "2025-11-25",
+    "2025-11-26",
+    "2025-11-27",
+    "2025-11-28",
+    "2025-11-29",
+    "2025-11-30",
+    "2025-12-01",
+    "2025-12-02",
+    "2025-12-03",
+    "2025-12-04",
+    "2025-12-05",
+    "2025-12-06",
+    "2025-12-07",
+    "2025-12-08",
+    "2025-12-09",
+    "2025-12-10",
+    "2025-12-11",
+    "2025-12-12",
+    "2025-12-14",
+    "2025-12-15",
+    "2025-12-17",
+    "2025-12-18",
+    "2025-12-19",
+    "2025-12-20",
+    "2025-12-21",
+    "2025-12-22",
+    "2025-12-23",
+    "2025-12-24",
+    "2025-12-25",
+    "2025-12-27",
+    "2025-12-28",
+    "2025-12-29",
+    "2025-12-30",
+    "2025-12-31",
+    "2026-01-03",
+    "2026-01-04",
+    "2026-01-05",
+    "2026-01-06",
+    "2026-01-07",
+    "2026-01-10",
+    "2026-01-11",
+    "2026-01-12",
+    "2026-01-13",
+    "2026-01-14",
+    "2026-01-15"
+   ],
+   "trackStreak": true
+  },
+  {
+   "id": "hb0044demo",
+   "name": "Walk outside",
+   "desc": "Any weather.",
+   "dopamineLevel": "Medium",
+   "activeDates": [
+    "2025-11-16",
+    "2025-11-17",
+    "2025-11-19",
+    "2025-11-20",
+    "2025-11-21",
+    "2025-11-23",
+    "2025-11-24",
+    "2025-11-25",
+    "2025-11-29",
+    "2025-11-30",
+    "2025-12-01",
+    "2025-12-04",
+    "2025-12-05",
+    "2025-12-06",
+    "2025-12-07",
+    "2025-12-08",
+    "2025-12-09",
+    "2025-12-10",
+    "2025-12-11",
+    "2025-12-12",
+    "2025-12-13",
+    "2025-12-14",
+    "2025-12-16",
+    "2025-12-17",
+    "2025-12-18",
+    "2025-12-19",
+    "2025-12-20",
+    "2025-12-25",
+    "2025-12-26",
+    "2025-12-27",
+    "2025-12-28",
+    "2025-12-29",
+    "2025-12-30",
+    "2025-12-31",
+    "2026-01-01",
+    "2026-01-02",
+    "2026-01-03",
+    "2026-01-04",
+    "2026-01-05",
+    "2026-01-06",
+    "2026-01-07",
+    "2026-01-08",
+    "2026-01-10",
+    "2026-01-11",
+    "2026-01-12",
+    "2026-01-13",
+    "2026-01-14",
+    "2026-01-15"
+   ],
+   "trackStreak": true
+  },
+  {
+   "id": "hb0045demo",
+   "name": "Stretch",
+   "desc": "",
+   "dopamineLevel": "Low",
+   "activeDates": [
+    "2025-12-20",
+    "2025-12-21",
+    "2025-12-22",
+    "2025-12-23",
+    "2025-12-25",
+    "2025-12-26",
+    "2025-12-29",
+    "2025-12-31",
+    "2026-01-05",
+    "2026-01-06",
+    "2026-01-07",
+    "2026-01-11",
+    "2026-01-12"
+   ],
+   "trackStreak": true
+  }
+ ],
+ "streaks": [
+  {
+   "id": "s0046demo",
+   "name": "No phone in bed",
+   "activeDates": [
+    "2026-01-03",
+    "2026-01-04",
+    "2026-01-05",
+    "2026-01-06",
+    "2026-01-07",
+    "2026-01-08",
+    "2026-01-09",
+    "2026-01-10",
+    "2026-01-11",
+    "2026-01-12",
+    "2026-01-13",
+    "2026-01-14",
+    "2026-01-15"
+   ]
+  }
+ ],
+ "pomodoroSessions": [
+  {
+   "id": "ps0047demo",
+   "category": "Writing",
+   "duration": 25,
+   "date": "2026-01-15",
+   "completed": true
+  },
+  {
+   "id": "ps0048demo",
+   "category": "Music",
+   "duration": 50,
+   "date": "2026-01-14",
+   "completed": true
+  },
+  {
+   "id": "ps0049demo",
+   "category": "Study",
+   "duration": 25,
+   "date": "2026-01-13",
+   "completed": true
+  },
+  {
+   "id": "ps0050demo",
+   "category": "Writing",
+   "duration": 25,
+   "date": "2026-01-12",
+   "completed": true
+  },
+  {
+   "id": "ps0051demo",
+   "category": "Music",
+   "duration": 25,
+   "date": "2026-01-11",
+   "completed": true
+  },
+  {
+   "id": "ps0052demo",
+   "category": "Art",
+   "duration": 25,
+   "date": "2026-01-10",
+   "completed": true
+  },
+  {
+   "id": "ps0053demo",
+   "category": "Study",
+   "duration": 25,
+   "date": "2026-01-10",
+   "completed": true
+  },
+  {
+   "id": "ps0054demo",
+   "category": "Writing",
+   "duration": 25,
+   "date": "2026-01-08",
+   "completed": true
+  },
+  {
+   "id": "ps0055demo",
+   "category": "Code",
+   "duration": 50,
+   "date": "2026-01-07",
+   "completed": true
+  },
+  {
+   "id": "ps0056demo",
+   "category": "Music",
+   "duration": 25,
+   "date": "2026-01-06",
+   "completed": true
+  },
+  {
+   "id": "ps0057demo",
+   "category": "Writing",
+   "duration": 25,
+   "date": "2026-01-06",
+   "completed": true
+  },
+  {
+   "id": "ps0058demo",
+   "category": "Study",
+   "duration": 25,
+   "date": "2026-01-06",
+   "completed": true
+  },
+  {
+   "id": "ps0059demo",
+   "category": "Code",
+   "duration": 50,
+   "date": "2026-01-05",
+   "completed": true
+  },
+  {
+   "id": "ps0060demo",
+   "category": "Code",
+   "duration": 50,
+   "date": "2026-01-05",
+   "completed": true
+  },
+  {
+   "id": "ps0061demo",
+   "category": "Study",
+   "duration": 50,
+   "date": "2026-01-04",
+   "completed": true
+  },
+  {
+   "id": "ps0062demo",
+   "category": "Writing",
+   "duration": 25,
+   "date": "2026-01-03",
+   "completed": true
+  },
+  {
+   "id": "ps0063demo",
+   "category": "Code",
+   "duration": 25,
+   "date": "2026-01-03",
+   "completed": true
+  },
+  {
+   "id": "ps0064demo",
+   "category": "Study",
+   "duration": 25,
+   "date": "2026-01-02",
+   "completed": true
+  },
+  {
+   "id": "ps0065demo",
+   "category": "Writing",
+   "duration": 25,
+   "date": "2026-01-01",
+   "completed": true
+  },
+  {
+   "id": "ps0066demo",
+   "category": "Music",
+   "duration": 50,
+   "date": "2026-01-01",
+   "completed": true
+  },
+  {
+   "id": "ps0067demo",
+   "category": "Art",
+   "duration": 25,
+   "date": "2026-01-01",
+   "completed": true
+  },
+  {
+   "id": "ps0068demo",
+   "category": "Music",
+   "duration": 25,
+   "date": "2025-12-31",
+   "completed": true
+  },
+  {
+   "id": "ps0069demo",
+   "category": "Study",
+   "duration": 25,
+   "date": "2025-12-31",
+   "completed": true
+  },
+  {
+   "id": "ps0070demo",
+   "category": "Study",
+   "duration": 25,
+   "date": "2025-12-31",
+   "completed": true
+  },
+  {
+   "id": "ps0071demo",
+   "category": "Code",
+   "duration": 25,
+   "date": "2025-12-30",
+   "completed": true
+  },
+  {
+   "id": "ps0072demo",
+   "category": "Study",
+   "duration": 25,
+   "date": "2025-12-30",
+   "completed": true
+  },
+  {
+   "id": "ps0073demo",
+   "category": "Art",
+   "duration": 25,
+   "date": "2025-12-29",
+   "completed": true
+  },
+  {
+   "id": "ps0074demo",
+   "category": "Art",
+   "duration": 25,
+   "date": "2025-12-28",
+   "completed": true
+  },
+  {
+   "id": "ps0075demo",
+   "category": "Music",
+   "duration": 50,
+   "date": "2025-12-28",
+   "completed": true
+  },
+  {
+   "id": "ps0076demo",
+   "category": "Code",
+   "duration": 25,
+   "date": "2025-12-28",
+   "completed": true
+  },
+  {
+   "id": "ps0077demo",
+   "category": "Writing",
+   "duration": 50,
+   "date": "2025-12-27",
+   "completed": true
+  },
+  {
+   "id": "ps0078demo",
+   "category": "Code",
+   "duration": 25,
+   "date": "2025-12-26",
+   "completed": true
+  },
+  {
+   "id": "ps0079demo",
+   "category": "Music",
+   "duration": 25,
+   "date": "2025-12-26",
+   "completed": true
+  },
+  {
+   "id": "ps0080demo",
+   "category": "Writing",
+   "duration": 25,
+   "date": "2025-12-26",
+   "completed": true
+  }
+ ],
+ "pomodoroCategories": [
+  "Study",
+  "Music",
+  "Code",
+  "Art",
+  "Writing"
+ ],
+ "skills": [
+  {
+   "id": "sk0081demo",
+   "name": "Drawing",
+   "why": "To see things properly.",
+   "cat": "Art",
+   "targetHours": 20,
+   "start": "2025-12-18",
+   "end": "2026-02-12",
+   "status": "active",
+   "created": "2025-12-18",
+   "resources": [
+    {
+     "id": "rs0082demo",
+     "label": "Proko: drawing basics",
+     "url": "https://www.proko.com/"
+    }
+   ],
+   "milestones": [
+    {
+     "id": "mi0083demo",
+     "text": "Fill one sketchbook",
+     "done": false
+    },
+    {
+     "id": "mi0084demo",
+     "text": "Draw a hand from life",
+     "done": true
+    }
+   ],
+   "sessions": [
+    {
+     "id": "ss0085demo",
+     "date": "2026-01-14",
+     "min": 15,
+     "note": ""
+    },
+    {
+     "id": "ss0086demo",
+     "date": "2026-01-13",
+     "min": 20,
+     "note": ""
+    },
+    {
+     "id": "ss0087demo",
+     "date": "2026-01-11",
+     "min": 20,
+     "note": ""
+    },
+    {
+     "id": "ss0088demo",
+     "date": "2026-01-10",
+     "min": 20,
+     "note": ""
+    },
+    {
+     "id": "ss0089demo",
+     "date": "2026-01-08",
+     "min": 45,
+     "note": ""
+    },
+    {
+     "id": "ss0090demo",
+     "date": "2026-01-06",
+     "min": 15,
+     "note": ""
+    },
+    {
+     "id": "ss0091demo",
+     "date": "2026-01-03",
+     "min": 15,
+     "note": ""
+    },
+    {
+     "id": "ss0092demo",
+     "date": "2026-01-01",
+     "min": 30,
+     "note": ""
+    },
+    {
+     "id": "ss0093demo",
+     "date": "2025-12-28",
+     "min": 45,
+     "note": ""
+    },
+    {
+     "id": "ss0094demo",
+     "date": "2025-12-25",
+     "min": 15,
+     "note": ""
+    },
+    {
+     "id": "ss0095demo",
+     "date": "2025-12-21",
+     "min": 15,
+     "note": ""
+    }
+   ]
+  },
+  {
+   "id": "sk0096demo",
+   "name": "Spanish: zero to A2",
+   "why": "A trip to Mexico City next year.",
+   "cat": "Language",
+   "targetHours": 100,
+   "start": "2026-01-01",
+   "end": "2026-07-04",
+   "status": "active",
+   "created": "2026-01-01",
+   "track": "language",
+   "level": "A2",
+   "units": [
+    {
+     "id": "u1",
+     "title": "Sounds and greetings",
+     "goal": "Pronounce everything; introduce yourself.",
+     "hours": 20
+    },
+    {
+     "id": "u2",
+     "title": "Present tense",
+     "goal": "Talk about your day.",
+     "hours": 30
+    },
+    {
+     "id": "u3",
+     "title": "Past tense",
+     "goal": "Tell a short story about last weekend.",
+     "hours": 30
+    },
+    {
+     "id": "u4",
+     "title": "Small talk",
+     "goal": "A 10-minute chat with a tutor.",
+     "hours": 20
+    }
+   ],
+   "resources": [
+    {
+     "id": "rs0097demo",
+     "label": "Language Transfer: Complete Spanish (free audio course)",
+     "url": "https://www.languagetransfer.org/",
+     "group": "Course"
+    },
+    {
+     "id": "rs0098demo",
+     "label": "A graded reader of your choice",
+     "url": "",
+     "group": "Reading"
+    }
+   ],
+   "milestones": [
+    {
+     "id": "mi0099demo",
+     "text": "Listen to lessons 1-10",
+     "done": true,
+     "unit": "u1",
+     "type": "listen"
+    },
+    {
+     "id": "mi0100demo",
+     "text": "Write a 100-word self-introduction",
+     "done": false,
+     "unit": "u1",
+     "type": "write"
+    },
+    {
+     "id": "mi0101demo",
+     "text": "Read the first graded reader",
+     "done": false,
+     "unit": "u2",
+     "type": "read"
+    }
+   ],
+   "sessions": [
+    {
+     "id": "ss0102demo",
+     "date": "2026-01-15",
+     "min": 30,
+     "note": ""
+    },
+    {
+     "id": "ss0103demo",
+     "date": "2026-01-14",
+     "min": 30,
+     "note": ""
+    },
+    {
+     "id": "ss0104demo",
+     "date": "2026-01-12",
+     "min": 30,
+     "note": ""
+    },
+    {
+     "id": "ss0105demo",
+     "date": "2026-01-11",
+     "min": 30,
+     "note": ""
+    },
+    {
+     "id": "ss0106demo",
+     "date": "2026-01-09",
+     "min": 30,
+     "note": ""
+    },
+    {
+     "id": "ss0107demo",
+     "date": "2026-01-07",
+     "min": 30,
+     "note": ""
+    },
+    {
+     "id": "ss0108demo",
+     "date": "2026-01-05",
+     "min": 30,
+     "note": ""
+    },
+    {
+     "id": "ss0109demo",
+     "date": "2026-01-02",
+     "min": 30,
+     "note": ""
+    }
+   ]
+  }
+ ],
+ "skillsMeta": {
+  "scrollsReplaced": [
+   {
+    "date": "2026-01-14",
+    "skillId": "sk0081demo",
+    "min": 15
+   }
+  ]
+ },
+ "assets": [
+  {
+   "id": "a0110demo",
+   "name": "Bank Account",
+   "assetType": "Bank Account",
+   "amount": 2840.5,
+   "notes": ""
+  },
+  {
+   "id": "a0111demo",
+   "name": "Cash",
+   "assetType": "Cash",
+   "amount": 120,
+   "notes": ""
+  }
+ ],
+ "income": [
+  {
+   "id": "i0112demo",
+   "name": "Salary",
+   "amount": 2400,
+   "date": "2025-11-01",
+   "notes": "",
+   "incomeType": "Bank Account"
+  },
+  {
+   "id": "i0113demo",
+   "name": "Salary",
+   "amount": 2400,
+   "date": "2025-12-01",
+   "notes": "",
+   "incomeType": "Bank Account"
+  },
+  {
+   "id": "i0114demo",
+   "name": "Salary",
+   "amount": 2400,
+   "date": "2026-01-01",
+   "notes": "",
+   "incomeType": "Bank Account"
+  }
+ ],
+ "oneTimeExpenses": [
+  {
+   "id": "e0115demo",
+   "name": "Bus pass",
+   "amount": 13.9,
+   "date": "2026-01-10",
+   "notes": "",
+   "category": "Transport",
+   "assetId": "a0110demo",
+   "deducted": 0
+  },
+  {
+   "id": "e0116demo",
+   "name": "Groceries",
+   "amount": 31.94,
+   "date": "2025-11-05",
+   "notes": "",
+   "category": "Food",
+   "assetId": "a0110demo",
+   "deducted": 0
+  },
+  {
+   "id": "e0117demo",
+   "name": "Groceries",
+   "amount": 46.32,
+   "date": "2026-01-07",
+   "notes": "",
+   "category": "Food",
+   "assetId": "a0110demo",
+   "deducted": 0
+  },
+  {
+   "id": "e0118demo",
+   "name": "Sketchbook",
+   "amount": 21.56,
+   "date": "2025-11-12",
+   "notes": "",
+   "category": "Education",
+   "assetId": "a0110demo",
+   "deducted": 0
+  },
+  {
+   "id": "e0119demo",
+   "name": "Pharmacy",
+   "amount": 32.19,
+   "date": "2025-12-11",
+   "notes": "",
+   "category": "Health",
+   "assetId": "a0110demo",
+   "deducted": 0
+  },
+  {
+   "id": "e0120demo",
+   "name": "Sketchbook",
+   "amount": 31.96,
+   "date": "2025-11-15",
+   "notes": "",
+   "category": "Education",
+   "assetId": "a0110demo",
+   "deducted": 0
+  },
+  {
+   "id": "e0121demo",
+   "name": "Pharmacy",
+   "amount": 56.67,
+   "date": "2025-11-10",
+   "notes": "",
+   "category": "Health",
+   "assetId": "a0110demo",
+   "deducted": 0
+  },
+  {
+   "id": "e0122demo",
+   "name": "Cinema",
+   "amount": 55.6,
+   "date": "2025-12-21",
+   "notes": "",
+   "category": "Entertainment",
+   "assetId": "a0110demo",
+   "deducted": 0
+  },
+  {
+   "id": "e0123demo",
+   "name": "Sketchbook",
+   "amount": 10.82,
+   "date": "2025-12-31",
+   "notes": "",
+   "category": "Education",
+   "assetId": "a0110demo",
+   "deducted": 0
+  },
+  {
+   "id": "e0124demo",
+   "name": "Sketchbook",
+   "amount": 28.2,
+   "date": "2026-01-06",
+   "notes": "",
+   "category": "Education",
+   "assetId": "a0110demo",
+   "deducted": 0
+  },
+  {
+   "id": "e0125demo",
+   "name": "Coffee",
+   "amount": 16.72,
+   "date": "2026-01-06",
+   "notes": "",
+   "category": "Food",
+   "assetId": "a0110demo",
+   "deducted": 0
+  },
+  {
+   "id": "e0126demo",
+   "name": "Bus pass",
+   "amount": 41.16,
+   "date": "2025-12-31",
+   "notes": "",
+   "category": "Transport",
+   "assetId": "a0110demo",
+   "deducted": 0
+  },
+  {
+   "id": "e0127demo",
+   "name": "Bus pass",
+   "amount": 56.55,
+   "date": "2025-11-30",
+   "notes": "",
+   "category": "Transport",
+   "assetId": "a0110demo",
+   "deducted": 0
+  },
+  {
+   "id": "e0128demo",
+   "name": "Bus pass",
+   "amount": 17.43,
+   "date": "2025-12-29",
+   "notes": "",
+   "category": "Transport",
+   "assetId": "a0110demo",
+   "deducted": 0
+  },
+  {
+   "id": "e0129demo",
+   "name": "Sketchbook",
+   "amount": 15.52,
+   "date": "2026-01-03",
+   "notes": "",
+   "category": "Education",
+   "assetId": "a0110demo",
+   "deducted": 0
+  },
+  {
+   "id": "e0130demo",
+   "name": "Sketchbook",
+   "amount": 53.44,
+   "date": "2025-12-26",
+   "notes": "",
+   "category": "Education",
+   "assetId": "a0110demo",
+   "deducted": 0
+  },
+  {
+   "id": "e0131demo",
+   "name": "Coffee",
+   "amount": 50.45,
+   "date": "2025-12-26",
+   "notes": "",
+   "category": "Food",
+   "assetId": "a0110demo",
+   "deducted": 0
+  },
+  {
+   "id": "e0132demo",
+   "name": "Coffee",
+   "amount": 27.6,
+   "date": "2025-11-11",
+   "notes": "",
+   "category": "Food",
+   "assetId": "a0110demo",
+   "deducted": 0
+  },
+  {
+   "id": "e0133demo",
+   "name": "Sketchbook",
+   "amount": 22.33,
+   "date": "2025-12-21",
+   "notes": "",
+   "category": "Education",
+   "assetId": "a0110demo",
+   "deducted": 0
+  },
+  {
+   "id": "e0134demo",
+   "name": "Cinema",
+   "amount": 21.16,
+   "date": "2025-11-30",
+   "notes": "",
+   "category": "Entertainment",
+   "assetId": "a0110demo",
+   "deducted": 0
+  },
+  {
+   "id": "e0135demo",
+   "name": "Groceries",
+   "amount": 22.26,
+   "date": "2025-11-18",
+   "notes": "",
+   "category": "Food",
+   "assetId": "a0110demo",
+   "deducted": 0
+  },
+  {
+   "id": "e0136demo",
+   "name": "Sketchbook",
+   "amount": 43.08,
+   "date": "2025-11-27",
+   "notes": "",
+   "category": "Education",
+   "assetId": "a0110demo",
+   "deducted": 0
+  },
+  {
+   "id": "e0137demo",
+   "name": "Cinema",
+   "amount": 32.49,
+   "date": "2025-12-09",
+   "notes": "",
+   "category": "Entertainment",
+   "assetId": "a0110demo",
+   "deducted": 0
+  },
+  {
+   "id": "e0138demo",
+   "name": "Pharmacy",
+   "amount": 57.76,
+   "date": "2026-01-01",
+   "notes": "",
+   "category": "Health",
+   "assetId": "a0110demo",
+   "deducted": 0
+  },
+  {
+   "id": "e0139demo",
+   "name": "Bus pass",
+   "amount": 58.39,
+   "date": "2026-01-02",
+   "notes": "",
+   "category": "Transport",
+   "assetId": "a0110demo",
+   "deducted": 0
+  },
+  {
+   "id": "e0140demo",
+   "name": "Groceries",
+   "amount": 18.14,
+   "date": "2026-01-10",
+   "notes": "",
+   "category": "Food",
+   "assetId": "a0110demo",
+   "deducted": 0
+  },
+  {
+   "id": "e0141demo",
+   "name": "Bus pass",
+   "amount": 18.42,
+   "date": "2025-12-30",
+   "notes": "",
+   "category": "Transport",
+   "assetId": "a0110demo",
+   "deducted": 0
+  },
+  {
+   "id": "e0142demo",
+   "name": "Sketchbook",
+   "amount": 51.43,
+   "date": "2025-12-13",
+   "notes": "",
+   "category": "Education",
+   "assetId": "a0110demo",
+   "deducted": 0
+  },
+  {
+   "id": "e0143demo",
+   "name": "Sketchbook",
+   "amount": 11.51,
+   "date": "2025-11-11",
+   "notes": "",
+   "category": "Education",
+   "assetId": "a0110demo",
+   "deducted": 0
+  },
+  {
+   "id": "e0144demo",
+   "name": "Pharmacy",
+   "amount": 31.19,
+   "date": "2025-12-05",
+   "notes": "",
+   "category": "Health",
+   "assetId": "a0110demo",
+   "deducted": 0
+  },
+  {
+   "id": "e0145demo",
+   "name": "Groceries",
+   "amount": 18.91,
+   "date": "2025-12-23",
+   "notes": "",
+   "category": "Food",
+   "assetId": "a0110demo",
+   "deducted": 0
+  },
+  {
+   "id": "e0146demo",
+   "name": "Sketchbook",
+   "amount": 54.03,
+   "date": "2025-12-12",
+   "notes": "",
+   "category": "Education",
+   "assetId": "a0110demo",
+   "deducted": 0
+  },
+  {
+   "id": "e0147demo",
+   "name": "Groceries",
+   "amount": 39.16,
+   "date": "2025-12-13",
+   "notes": "",
+   "category": "Food",
+   "assetId": "a0110demo",
+   "deducted": 0
+  },
+  {
+   "id": "e0148demo",
+   "name": "Groceries",
+   "amount": 37.67,
+   "date": "2025-12-18",
+   "notes": "",
+   "category": "Food",
+   "assetId": "a0110demo",
+   "deducted": 0
+  },
+  {
+   "id": "e0149demo",
+   "name": "Groceries",
+   "amount": 18.07,
+   "date": "2025-12-31",
+   "notes": "",
+   "category": "Food",
+   "assetId": "a0110demo",
+   "deducted": 0
+  },
+  {
+   "id": "e0150demo",
+   "name": "Sketchbook",
+   "amount": 3.66,
+   "date": "2025-11-06",
+   "notes": "",
+   "category": "Education",
+   "assetId": "a0110demo",
+   "deducted": 0
+  },
+  {
+   "id": "e0151demo",
+   "name": "Sketchbook",
+   "amount": 55.82,
+   "date": "2025-12-12",
+   "notes": "",
+   "category": "Education",
+   "assetId": "a0110demo",
+   "deducted": 0
+  },
+  {
+   "id": "e0152demo",
+   "name": "Pharmacy",
+   "amount": 10.37,
+   "date": "2025-11-09",
+   "notes": "",
+   "category": "Health",
+   "assetId": "a0110demo",
+   "deducted": 0
+  },
+  {
+   "id": "e0153demo",
+   "name": "Coffee",
+   "amount": 16.59,
+   "date": "2026-01-01",
+   "notes": "",
+   "category": "Food",
+   "assetId": "a0110demo",
+   "deducted": 0
+  },
+  {
+   "id": "e0154demo",
+   "name": "Bus pass",
+   "amount": 17.93,
+   "date": "2025-12-23",
+   "notes": "",
+   "category": "Transport",
+   "assetId": "a0110demo",
+   "deducted": 0
+  }
+ ],
+ "recurringExpenses": [
+  {
+   "id": "b0155demo",
+   "name": "Rent",
+   "price": 900,
+   "frequency": "monthly",
+   "dueDate": "2026-01-31",
+   "notes": ""
+  },
+  {
+   "id": "b0156demo",
+   "name": "Phone",
+   "price": 15,
+   "frequency": "monthly",
+   "dueDate": "2026-01-20",
+   "notes": ""
+  },
+  {
+   "id": "b0157demo",
+   "name": "Music streaming",
+   "price": 120,
+   "frequency": "yearly",
+   "dueDate": "2026-03-16",
+   "notes": ""
+  }
+ ],
+ "purchases": [
+  {
+   "id": "w0158demo",
+   "name": "Rain jacket",
+   "price": 85,
+   "category": "Shopping",
+   "targetMonth": "2026-02",
+   "purchased": false,
+   "purchasedDate": null,
+   "notes": "",
+   "priority": "High"
+  },
+  {
+   "id": "w0159demo",
+   "name": "Film scanner",
+   "price": 140,
+   "category": "Shopping",
+   "targetMonth": "2026-03",
+   "purchased": false,
+   "purchasedDate": null,
+   "notes": "",
+   "priority": "Low"
+  }
+ ],
+ "budgets": [
+  {
+   "category": "Food",
+   "monthlyLimit": 300
+  },
+  {
+   "category": "Entertainment",
+   "monthlyLimit": 60
+  }
+ ],
+ "debts": [],
+ "savingsGoal": {
+  "target": 5000
+ },
+ "incomeGoal": {
+  "monthly": 2400
+ },
+ "recurringIncome": [],
+ "wisdom": [
+  {
+   "id": "wi0160demo",
+   "title": "Make it exist first",
+   "content": "A rough version that exists beats a perfect one that doesn't.",
+   "type": "Operating Principle",
+   "category": "Productivity",
+   "tags": [
+    "work"
+   ],
+   "source": "",
+   "sourceType": "Personal Experience",
+   "dateAdded": "2025-11-26",
+   "importanceScore": 5,
+   "whySaved": "I keep forgetting it.",
+   "isCore": true,
+   "relatedIds": [],
+   "viewCount": 0,
+   "lastSeenDate": ""
+  },
+  {
+   "id": "wi0161demo",
+   "title": "Attention is the rarest form of generosity",
+   "content": "Attention is the rarest and purest form of generosity.",
+   "type": "Inspiration",
+   "category": "Relationships",
+   "tags": [
+    "people"
+   ],
+   "source": "Simone Weil",
+   "sourceType": "Author",
+   "dateAdded": "2025-12-16",
+   "importanceScore": 4,
+   "whySaved": "",
+   "isCore": false,
+   "relatedIds": [],
+   "viewCount": 0,
+   "lastSeenDate": ""
+  },
+  {
+   "id": "wi0162demo",
+   "title": "Don't plan in the evening",
+   "content": "Tired planning is just worrying with a list.",
+   "type": "Anti-Principle",
+   "category": "Health",
+   "tags": [
+    "sleep"
+   ],
+   "source": "",
+   "sourceType": "Personal Experience",
+   "dateAdded": "2026-01-07",
+   "importanceScore": 3,
+   "whySaved": "",
+   "isCore": false,
+   "relatedIds": [],
+   "viewCount": 0,
+   "lastSeenDate": ""
+  }
+ ],
+ "notes": [
+  {
+   "id": "n0163demo",
+   "title": "Places to visit",
+   "text": "Lake Bled, row out to the island\nShakespeare and Company, read upstairs\nFushimi Inari at dawn\nA night train somewhere cold",
+   "image": "",
+   "source": "hub",
+   "sid": "",
+   "folder": "Lists",
+   "created": "2025-10-07",
+   "modified": "2025-12-26",
+   "pinned": true
+  },
+  {
+   "id": "n0164demo",
+   "title": "Zine ideas",
+   "text": "- streetlights as a series\n- the 24h laundromat\n- one page of only window light",
+   "image": "",
+   "source": "hub",
+   "sid": "",
+   "folder": "Ideas",
+   "created": "2025-12-06",
+   "modified": "2026-01-09",
+   "pinned": false
+  },
+  {
+   "id": "n0165demo",
+   "title": "Pottery notes",
+   "text": "Wedge the clay longer. Centre slowly. Trim when leather-hard, not before.",
+   "image": "",
+   "source": "hub",
+   "sid": "",
+   "folder": "Hobbies",
+   "created": "2025-12-21",
+   "modified": "2025-12-21",
+   "pinned": false
+  }
+ ],
+ "dreams": [
+  {
+   "id": "d0166demo",
+   "title": "The station with no trains",
+   "text": "I was waiting at a huge station where the boards listed only cities that don't exist. A clock kept going backwards and nobody minded.",
+   "image": "",
+   "source": "hub",
+   "sid": "",
+   "date": "2026-01-13",
+   "added_date": "2026-01-13",
+   "tags": [
+    "recurring"
+   ],
+   "images": [],
+   "video": ""
+  },
+  {
+   "id": "d0167demo",
+   "title": "Flooded school",
+   "text": "My old school, but the hallways were full of warm, clear water. My friends were swimming to class like it was normal.",
+   "image": "",
+   "source": "hub",
+   "sid": "",
+   "date": "2025-12-27",
+   "added_date": "2025-12-27",
+   "tags": [],
+   "images": [],
+   "video": ""
+  },
+  {
+   "id": "d0168demo",
+   "title": "Flying over the hotel",
+   "text": "I could fly, but only about two metres up, over a hotel roof garden at night. Someone was playing piano somewhere below.",
+   "image": "",
+   "source": "hub",
+   "sid": "",
+   "date": "2025-11-29",
+   "added_date": "2025-11-29",
+   "tags": [
+    "flying"
+   ],
+   "images": [],
+   "video": ""
+  }
+ ],
+ "diary": [
+  {
+   "id": "y0169demo",
+   "date": "2026-01-14",
+   "time": "22:40",
+   "title": "Small good day",
+   "text": "Finished the hand drawing. It looks like a hand! Long walk after, cold and clear.",
+   "tags": [
+    "drawing"
+   ],
+   "file": "",
+   "source": "hub",
+   "added_date": "2026-01-14"
+  },
+  {
+   "id": "y0170demo",
+   "date": "2026-01-09",
+   "time": "08:15",
+   "title": "",
+   "text": "Slept badly. Going to try no screens after ten this week.",
+   "tags": [],
+   "file": "",
+   "source": "hub",
+   "added_date": "2026-01-09"
+  },
+  {
+   "id": "y0171demo",
+   "date": "2025-01-10",
+   "time": "21:00",
+   "title": "A year ago",
+   "text": "First entry. Bought the camera today.",
+   "tags": [
+    "photo"
+   ],
+   "file": "",
+   "source": "hub",
+   "added_date": "2025-01-10"
+  }
+ ],
+ "places": [
+  {
+   "id": "pl0172demo",
+   "name": "Lake Bled",
+   "area": "Bled",
+   "country": "Slovenia",
+   "lat": 46.3635,
+   "lon": 14.0938,
+   "cat": "nature",
+   "said": "row out to the island",
+   "noteId": "n0163demo",
+   "noteTitle": "Places to visit",
+   "wiki": null,
+   "image": "",
+   "status": "want",
+   "added": "2025-10-07"
+  },
+  {
+   "id": "pl0173demo",
+   "name": "Shakespeare and Company",
+   "area": "Paris",
+   "country": "France",
+   "lat": 48.8526,
+   "lon": 2.3471,
+   "cat": "books",
+   "said": "read upstairs",
+   "noteId": "n0163demo",
+   "noteTitle": "Places to visit",
+   "wiki": null,
+   "image": "",
+   "status": "want",
+   "added": "2025-10-07"
+  },
+  {
+   "id": "pl0174demo",
+   "name": "Fushimi Inari Taisha",
+   "area": "Kyoto",
+   "country": "Japan",
+   "lat": 34.9671,
+   "lon": 135.7727,
+   "cat": "landmark",
+   "said": "walk the gates at dawn",
+   "noteId": "n0163demo",
+   "noteTitle": "Places to visit",
+   "wiki": null,
+   "image": "",
+   "status": "want",
+   "added": "2025-10-07"
+  },
+  {
+   "id": "pl0175demo",
+   "name": "British Museum",
+   "area": "London",
+   "country": "United Kingdom",
+   "lat": 51.5194,
+   "lon": -0.127,
+   "cat": "landmark",
+   "said": "",
+   "noteId": "n0163demo",
+   "noteTitle": "Places to visit",
+   "wiki": null,
+   "image": "",
+   "status": "been",
+   "added": "2025-10-07"
+  },
+  {
+   "id": "pl0176demo",
+   "name": "A night train somewhere cold",
+   "area": "",
+   "country": "",
+   "lat": null,
+   "lon": null,
+   "cat": "other",
+   "said": "sleep on a night train through snow",
+   "noteId": "n0163demo",
+   "noteTitle": "Places to visit",
+   "wiki": null,
+   "image": "",
+   "status": "want",
+   "added": "2025-10-07"
+  }
+ ],
+ "bucket": [
+  {
+   "id": "bk0177demo",
+   "text": "Row out to the island on Lake Bled",
+   "kind": "go",
+   "status": "planned",
+   "placeId": "pl0172demo",
+   "added": "2025-10-07"
+  },
+  {
+   "id": "bk0178demo",
+   "text": "Draw a portrait someone recognises",
+   "kind": "learn",
+   "status": "dream",
+   "skill": "sk0081demo",
+   "added": "2025-11-16"
+  },
+  {
+   "id": "bk0179demo",
+   "text": "See the northern lights",
+   "kind": "do",
+   "status": "dream",
+   "added": "2025-11-16"
+  },
+  {
+   "id": "bk0180demo",
+   "text": "Print a zine",
+   "kind": "make",
+   "status": "planned",
+   "added": "2025-12-01"
+  },
+  {
+   "id": "bk0181demo",
+   "text": "Run a 10K",
+   "kind": "do",
+   "status": "done",
+   "doneAt": "2025-12-26",
+   "added": "2025-09-17"
+  }
+ ],
+ "placeIdeas": [
+  {
+   "id": "pi0197demo",
+   "name": "Svalbard",
+   "cat": "nature",
+   "why": "The northern lights item on the bucket list.",
+   "lat": 78.2232,
+   "lon": 15.6267,
+   "wiki": null,
+   "dismissed": false,
+   "added": "2026-01-12"
+  }
+ ],
+ "doIdeas": [
+  {
+   "id": "di0198demo",
+   "text": "Take a night photography walk with a tripod",
+   "why": "Zine + film photography.",
+   "dismissed": false,
+   "added": "2026-01-12"
+  }
+ ],
+ "blogs": [
+  {
+   "id": "bl0182demo",
+   "label": "Low-tech Magazine",
+   "url": "https://solar.lowtechmagazine.com/",
+   "tags": [
+    "technology",
+    "history"
+   ],
+   "energyLevel": "background",
+   "added": "2025-10-27",
+   "reviewAt": null,
+   "reviewInterval": null
+  },
+  {
+   "id": "bl0183demo",
+   "label": "The Marginalian",
+   "url": "https://www.themarginalian.org/",
+   "tags": [
+    "ideas"
+   ],
+   "energyLevel": "deep-focus",
+   "added": "2025-11-16",
+   "reviewAt": null,
+   "reviewInterval": null
+  },
+  {
+   "id": "bl0184demo",
+   "label": "Atlas Obscura",
+   "url": "https://www.atlasobscura.com/",
+   "tags": [
+    "places"
+   ],
+   "energyLevel": "palate-cleanser",
+   "added": "2025-12-16",
+   "reviewAt": null,
+   "reviewInterval": null
+  }
+ ],
+ "blogsPicked": [],
+ "papers": [
+  {
+   "id": "pa0185demo",
+   "text": "Vannevar Bush, \"As We May Think\" (1945)",
+   "added": "2025-12-26"
+  },
+  {
+   "id": "pa0186demo",
+   "text": "Alan Turing, \"Computing Machinery and Intelligence\" (1950)",
+   "added": "2026-01-03"
+  }
+ ],
+ "papersPicks": [],
+ "papersRead": [],
+ "readingChallenge": {
+  "title": "Winter of the classics",
+  "start": "2026-01-05",
+  "days": 61,
+  "items": [
+   {
+    "id": "c0187demo",
+    "kind": "book",
+    "group": "month",
+    "order": 1,
+    "title": "Moby-Dick",
+    "author": "Herman Melville",
+    "year": 1851,
+    "premise": "A captain's hunt for one white whale, and everything else besides.",
+    "why": "Long, strange and funny; a winter book.",
+    "status": "reading",
+    "pages": 635,
+    "mediaId": "m0003demo",
+    "startedAt": "2026-01-10",
+    "page": 140
+   },
+   {
+    "id": "c0188demo",
+    "kind": "book",
+    "group": "month",
+    "order": 2,
+    "title": "Middlemarch",
+    "author": "George Eliot",
+    "year": 1871,
+    "premise": "A provincial town and the people trying to live well in it.",
+    "why": "The great novel of ordinary lives.",
+    "status": "waiting",
+    "pages": 880,
+    "mediaId": "m0005demo"
+   },
+   {
+    "id": "c0189demo",
+    "kind": "book",
+    "group": "month",
+    "order": 3,
+    "title": "Walden",
+    "author": "Henry David Thoreau",
+    "year": 1854,
+    "premise": "Two years in a cabin by a pond, and what was enough.",
+    "why": "A counterweight to the screen.",
+    "status": "waiting",
+    "pages": 352,
+    "mediaId": "m0006demo"
+   },
+   {
+    "id": "c0190demo",
+    "kind": "story",
+    "group": "story",
+    "order": 1,
+    "title": "The Tell-Tale Heart",
+    "author": "Edgar Allan Poe",
+    "year": 1843,
+    "premise": "A narrator insists he is sane.",
+    "why": "Five pages of pure dread.",
+    "status": "waiting"
+   },
+   {
+    "id": "c0191demo",
+    "kind": "story",
+    "group": "story",
+    "order": 2,
+    "title": "The Yellow Wallpaper",
+    "author": "Charlotte Perkins Gilman",
+    "year": 1892,
+    "premise": "A rest cure, a room, a pattern.",
+    "why": "Short and unforgettable.",
+    "status": "done",
+    "doneAt": "2026-01-12"
+   },
+   {
+    "id": "c0192demo",
+    "kind": "story",
+    "group": "story",
+    "order": 3,
+    "title": "Bartleby, the Scrivener",
+    "author": "Herman Melville",
+    "year": 1853,
+    "premise": "A clerk who would prefer not to.",
+    "why": "Pairs with Moby-Dick.",
+    "status": "waiting"
+   },
+   {
+    "id": "c0193demo",
+    "kind": "book",
+    "group": "next",
+    "order": 1,
+    "title": "Dracula",
+    "author": "Bram Stoker",
+    "year": 1897,
+    "premise": "Letters and diaries close in on a count.",
+    "why": "For after.",
+    "status": "waiting",
+    "pages": 418,
+    "mediaId": "m0008demo"
+   }
+  ]
+ },
+ "readingPicks": {
+  "made": "2026-01-12",
+  "intro": "Three books picked from what this person reads, keeps and writes about. (The real tab holds ten.)",
+  "finds": [
+   {
+    "title": "Long books in winter",
+    "text": "Finished books cluster in December and January, and they are the long ones."
+   }
+  ],
+  "items": [
+   {
+    "id": "k0194demo",
+    "rank": 1,
+    "sure": "very likely",
+    "title": "The Count of Monte Cristo",
+    "author": "Alexandre Dumas",
+    "year": 1844,
+    "pages": 1276,
+    "form": "novel",
+    "premise": "Wrongly imprisoned, a sailor escapes, gets rich and returns with a plan.",
+    "why": "Long, plotted, and on the shelf already.",
+    "miss": "It is very long.",
+    "status": "waiting",
+    "mediaId": "m0007demo"
+   },
+   {
+    "id": "k0195demo",
+    "rank": 2,
+    "sure": "likely",
+    "title": "Robinson Crusoe",
+    "author": "Daniel Defoe",
+    "year": 1719,
+    "form": "novel",
+    "premise": "Twenty-eight years alone on an island, making a life from what washed up.",
+    "why": "Matches the travel notes.",
+    "miss": "Long stretches of inventory.",
+    "status": "waiting",
+    "mediaId": "m0004demo"
+   },
+   {
+    "id": "k0196demo",
+    "rank": 3,
+    "sure": "a gamble",
+    "title": "Walden",
+    "author": "Henry David Thoreau",
+    "year": 1854,
+    "pages": 352,
+    "form": "memoir",
+    "premise": "Two years by a pond.",
+    "why": "The diary keeps asking for less screen time.",
+    "miss": "Preachy in places.",
+    "status": "waiting"
+   }
+  ],
+  "near": [
+   {
+    "title": "Middlemarch",
+    "author": "George Eliot",
+    "why": "Already in the challenge."
+   }
+  ]
+ }
+}

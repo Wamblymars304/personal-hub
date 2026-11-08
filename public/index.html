@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Personal Hub</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Instrument+Serif:ital@0;1&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="app.css" />
+<link rel="stylesheet" href="living.css" />
+<link rel="stylesheet" href="tabs/blogs.css" />
+<link rel="stylesheet" href="tabs/media.css" />
+<link rel="stylesheet" href="tabs/schedule.css" />
+<link rel="stylesheet" href="tabs/reminders.css" />
+<link rel="stylesheet" href="tabs/projects.css" />
+<link rel="stylesheet" href="tabs/hobbies.css" />
+<link rel="stylesheet" href="tabs/pomodoro.css" />
+<link rel="stylesheet" href="tabs/analytics.css" />
+<link rel="stylesheet" href="tabs/challenge.css" />
+<link rel="stylesheet" href="tabs/bucket.css" />
+<link rel="stylesheet" href="tabs/skills.css" />
+</head>
+<body>
+  <aside class="side">
+    <div class="brand"><span class="logo"></span><div><b>Personal Hub</b><small id="saveState">loading…</small></div></div>
+    <nav id="nav" aria-label="Tabs"></nav>
+    <div class="side-foot">
+      <div class="quote" id="quote" hidden></div>
+      <button id="motionBtn" class="btn ghost sm motion-btn">Motion: on</button>
+      <div class="backup"><button id="exportBtn" class="btn ghost sm">Save backup</button><button id="importBtn" class="btn ghost sm">Load backup</button></div>
+      <input type="file" id="importFile" accept=".json,application/json" hidden />
+    </div>
+  </aside>
+  <div class="main">
+    <header class="top">
+      <button class="search" id="searchBtn"><span>Search everything…</span><kbd>Ctrl K</kbd></button>
+      <div class="principle" id="principle" hidden></div>
+    </header>
+    <main id="view"></main>
+  </div>
+
+  <div class="palette" id="palette" hidden>
+    <div class="pal-box" role="dialog" aria-label="Search">
+      <input id="palInput" placeholder="Search blogs, papers, media, reminders, projects, habits…" autocomplete="off" />
+      <div id="palList" class="pal-list"></div>
+      <div class="pal-foot"><span>↑↓ move</span><span>Enter open</span><span>Esc close</span></div>
+    </div>
+  </div>
+  <div class="toast" id="toast"></div>
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

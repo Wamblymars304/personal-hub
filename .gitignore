@@ -1,0 +1,15 @@
+# Your life stays on your computer: none of this goes in the repo
+data/
+images/*
+!images/.gitkeep
+atmospheres/*
+!atmospheres/.gitkeep
+music folders/
+examples/.demo/
+
+node_modules/
+__pycache__/
+*.log
+.claude/settings.local.json
+.DS_Store
+Thumbs.db

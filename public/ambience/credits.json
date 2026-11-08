@@ -1,0 +1,7 @@
+[
+  { "key": "rec-night", "label": "Crickets at night (recording)", "file": "ambience/night.ogg", "title": "Crickets choir", "author": "Serg Childed", "license": "CC BY-SA 4.0", "source": "https://commons.wikimedia.org/wiki/File:Crickets_choir.ogg", "note": "first 8 minutes, volume leveled" },
+  { "key": "rec-rain", "label": "Rainy street (recording)", "file": "ambience/rain.ogg", "title": "Urban Street on a Rainy Afternoon", "author": "Extemporalist", "license": "CC0", "source": "https://commons.wikimedia.org/wiki/File:Urban_Street_on_a_Rainy_Afternoon.flac", "note": "shortened, volume leveled" },
+  { "key": "rec-pond", "label": "Dusk pond (recording)", "file": "ambience/pond.ogg", "title": "Nature sounds ambience in a Dordogne pond", "author": "Glaneur de sons", "license": "CC BY 3.0", "source": "https://commons.wikimedia.org/wiki/File:Nature_sounds_ambience_in_a_Dordogne_pond.ogg", "note": "volume leveled" },
+  { "key": "rec-mall", "label": "Shopping mall (recording)", "file": "ambience/mall.ogg", "title": "1 minute at the alexa mall in Berlin", "author": "thore", "license": "Public domain", "source": "https://commons.wikimedia.org/wiki/File:1_minute_at_the_alexa_mall_in_berlin.ogg", "note": "volume leveled" },
+  { "key": "rec-pool", "label": "Indoor pool hall (recording)", "file": "ambience/pool.ogg", "title": "Indoor swimming pool hall", "author": "stephan", "license": "Public domain", "source": "https://commons.wikimedia.org/wiki/File:Indoor_swimming_pool_hall.ogg", "note": "volume leveled" }
+]

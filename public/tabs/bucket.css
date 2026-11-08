@@ -1,0 +1,49 @@
+/* bucket list — Gallery language: serif italic, mono labels, quiet rows */
+[data-mood="bucket"] { --accent: #ffd9a0; --accent-ink: #1c1206; }
+[data-mood="bucket"] .page-h::before { content: "before you're done"; }
+[data-mood="bucket"] .page-h h1 { font: italic 400 46px/1 var(--serif); letter-spacing: 0; }
+
+.bk-lede { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); border-top: 1px solid var(--line-2); margin-bottom: 18px; }
+.bk-lede > div { display: flex; flex-direction: column; gap: 4px; padding: 16px 16px 12px 0; }
+.bk-lede > div + div { padding-left: 16px; border-left: 1px solid var(--line); }
+.bk-lede b { font: italic 400 40px/1 var(--serif); }
+.bk-lede span { font: 500 9.5px var(--mono); letter-spacing: .18em; text-transform: uppercase; color: var(--faint); }
+.bk-bar { grid-column: 1 / -1; display: block; height: 3px; background: rgba(255, 255, 255, .07); border-radius: 2px; overflow: hidden; }
+.bk-bar u { display: block; height: 100%; background: var(--accent); }
+
+.bk-tools { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin-bottom: 10px; }
+.bk-tools .in { width: 200px; }
+.bk-tools .btn { margin-left: auto; }
+.bk-filter { display: inline-flex; gap: 2px; padding: 3px; border-radius: 999px; border: 1px solid var(--line); }
+.bk-filter button { border: 0; background: none; padding: 5px 13px; border-radius: 999px; font: italic 400 16px var(--serif); color: var(--faint); cursor: pointer; }
+.bk-filter button.on { color: var(--accent-ink); background: var(--accent); }
+.bk-add { display: flex; gap: 8px; margin-bottom: 26px; }
+.bk-add .in[name=text] { flex: 1; }
+
+.bk-sec { margin-bottom: 30px; }
+.bk-sec h2 { display: flex; align-items: baseline; gap: 12px; margin: 0 0 8px; padding-bottom: 8px; border-bottom: 1px solid var(--line-2); font: italic 400 30px/1.1 var(--serif); }
+.bk-sec h2 span { font: 400 10.5px var(--mono); letter-spacing: .1em; color: var(--faint); }
+.bk-item { display: grid; grid-template-columns: 28px minmax(0, 1fr) auto; gap: 12px; padding: 12px 2px; border-bottom: 1px solid var(--line); }
+.bk-dot { width: 20px; height: 20px; margin-top: 3px; border-radius: 50%; border: 1.5px solid var(--line-2); background: none; cursor: pointer; position: relative; transition: border-color .2s, background .2s, transform .2s cubic-bezier(.2, .9, .3, 1.6); }
+.bk-dot:hover { border-color: var(--accent); transform: scale(1.1); }
+.bk-item.planned .bk-dot { border-color: var(--accent); background: radial-gradient(circle, var(--accent) 0 35%, transparent 40%); }
+.bk-item.done .bk-dot { border-color: var(--accent); background: var(--accent); }
+.bk-item.done .bk-dot::after { content: "✓"; position: absolute; inset: 0; display: grid; place-items: center; font-size: 11px; color: var(--accent-ink); }
+.bk-t { border: 0; padding: 0; background: none; text-align: left; font: italic 400 22px/1.2 var(--serif); color: var(--text); cursor: text; }
+.bk-item.done .bk-t { color: var(--muted); }
+.bk-text { width: 100%; font: italic 400 20px var(--serif); }
+.bk-meta { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 14px; margin: 5px 0 0; font: 400 10.5px var(--mono); color: var(--faint); }
+.bk-st { letter-spacing: .1em; text-transform: uppercase; }
+.bk-item.planned .bk-st, .bk-item.done .bk-st { color: var(--accent); }
+.bk-link { border: 0; padding: 0; background: none; font: inherit; color: var(--muted); cursor: pointer; text-decoration: underline; text-underline-offset: 3px; text-decoration-color: var(--line-2); }
+.bk-link:hover { color: var(--accent); }
+.bk-link.danger:hover { color: var(--red); }
+.bk-del { align-self: start; margin-top: 7px; font: 400 10.5px var(--mono); color: var(--faint); }
+.bk-note { margin: 6px 0 0; font-size: 13px; line-height: 1.5; color: var(--muted); }
+.bk-edit { display: grid; gap: 8px; margin-top: 10px; }
+.bk-kinds { display: flex; flex-wrap: wrap; gap: 4px; }
+.bk-kinds button { padding: 3px 10px; border: 1px solid var(--line); border-radius: 999px; background: none; color: var(--faint); font: italic 400 14px var(--serif); cursor: pointer; }
+.bk-kinds button.on { color: var(--accent-ink); background: var(--accent); border-color: var(--accent); }
+.bk-edit-acts { display: flex; gap: 16px; font: 500 10.5px var(--mono); }
+.bk-empty { color: var(--faint); font: italic 400 20px var(--serif); }
+@media (max-width: 900px) { .bk-lede { grid-template-columns: repeat(2, 1fr); } .bk-lede > div:nth-child(3) { border-left: 0; padding-left: 0; } .bk-tools .btn { margin-left: 0; } }

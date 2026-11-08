@@ -1,0 +1,12 @@
+{
+  "name": "personal-hub",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A local, single-file personal dashboard: media, music, reading, skills, habits, dreams, diary, places and more. No build step, no dependencies.",
+  "type": "module",
+  "engines": { "node": ">=18" },
+  "scripts": {
+    "start": "node server.js",
+    "demo": "node scripts/demo.mjs"
+  }
+}
